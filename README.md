@@ -7,7 +7,7 @@ Needs environment variables:
 | INFLUXDB_PORT | 8086 |   InfluxDB port |
 | INFLUXDB_DB | office | InfluxDB Database, you can append a retention policy like office.retention |
 | NETATMO_USERNAME | - | Netatmo username (email) |
-| NETATMO_PASSOWRD | - | Netatmo password |
+| NETATMO_PASSWORD | - | Netatmo password |
 | NETATMO_CLIENT_ID| - | Netatmo OAuth2 Client ID |
 | NETATMO_CLIENT_SECRET | -| Netatmo OAuth2 Client Secret |
 
