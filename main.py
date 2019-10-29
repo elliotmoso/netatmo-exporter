@@ -9,7 +9,7 @@ CLIENT_SECRET = os.getenv("NETATMO_CLIENT_SECRET")
 NETATMO_USERNAME = os.getenv("NETATMO_USERNAME")
 NETATMO_PASSWORD = os.getenv("NETATMO_PASSWORD")
 INFLUXDB_HOST = os.getenv('INFLUXDB_HOST', "influxdb")
-INFLUXDB_PORT = int(os.getenv('INFLUXDB_PORT', 8086))
+INFLUXDB_PORT = int(os.getenv('INFLUXDB_PORT', "8086"))
 INFLUXDB_DB = os.getenv('INFLUXDB_DB', "office")
 
 _ALLOWED_TYPES = ('Temperature', 'CO2', 'Humidity', 'Pressure', 'AbsolutePressure', 'health_idx', 'Noise')
